@@ -253,7 +253,7 @@ def wcv(url,data,device):
 
 
     #Long Tasks La boucle retournera une liste qui contient les tâches longues et leurs durées.
-    long_tasks = final["lighthouseResult"]["audits"]["long-tasks"]["displayValue"]
+#    long_tasks = final["lighthouseResult"]["audits"]["long-tasks"]["displayValue"]
 
     listlongtasks = []
     for x in range (len(final["lighthouseResult"]["audits"]["long-tasks"]["details"]["items"])):
