@@ -104,7 +104,7 @@ onglet_data_fp_mobile = wb[anglet_FP_mobile]
 #Coloration de l'onglet 
 onglet_data_fp_mobile.sheet_properties.tabColor =color_fp_mobile
 #Insertion des données pagespeedinsight
-wcv("https://m.fram.fr/hotel-framissima-iliade-aquapark-djerba-tunisie-djerba-58139.html",onglet_data_fp_mobile,device_mobile)
+wcv("https://m.fram.fr/hotel-eden-star-tunisie-zarzis-56952.html",onglet_data_fp_mobile,device_mobile)
 
 #Insertion des données pagespeedinsight
 onglet_data_ld_mobile = wb[anglet_LD_mobile]
@@ -151,7 +151,7 @@ onglet_data_fp = wb[anglet_FP]
 #Coloration de l'onglet 
 onglet_data_fp.sheet_properties.tabColor =color_fp
 #Insertion des données pagespeedinsight
-wcv("https://www.fram.fr/hotel-framissima-iliade-aquapark-djerba-tunisie-djerba-58139.html",onglet_data_fp,device_desktop)
+wcv("https://www.fram.fr/hotel-eden-star-tunisie-zarzis-56952.html",onglet_data_fp,device_desktop)
 
 #Insertion des données pagespeedinsight
 onglet_data_ld= wb[anglet_LD]
