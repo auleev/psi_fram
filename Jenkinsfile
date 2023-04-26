@@ -19,7 +19,7 @@ pipeline {
             }
         }
 
-        stage('launch app fram') {
+        stage('launch app fram psi') {
             steps {
                 bat 'python main_fram.py'
             }
