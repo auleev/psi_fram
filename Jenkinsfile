@@ -12,8 +12,8 @@ pipeline {
             steps
             {
                 bat 'python --version'
-                bat 'curl -sSL https://bootstrap.pypa.io/get-pip3.py -o get-pip3.py'
-                bat 'python get-pip3.py'
+                bat 'curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py'
+                bat 'python get-pip.py'
                 bat 'pip install -r requirements.txt'
                 echo 'build phase has finished'
             }
